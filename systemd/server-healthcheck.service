@@ -1,0 +1,6 @@
+[Unit]
+Description=Server Healthcheck Service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/server-healthcheck.sh

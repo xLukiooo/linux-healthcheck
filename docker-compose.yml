@@ -1,0 +1,6 @@
+services:
+  healthcheck:
+    build: .
+    volumes:
+      - .:/app
+    command: ./server-healthcheck.sh
